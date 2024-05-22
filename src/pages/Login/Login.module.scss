@@ -1,0 +1,36 @@
+.root {
+  width: 100%;
+  max-width: 400px;
+  padding: 50px;
+  border: 1px solid #dedede;
+  margin: 50px auto;
+
+  @media (max-width: 440px) {
+    padding: 20px;
+  }
+}
+
+.field {
+  position: relative !important;
+  margin: 0 0 20px 0 !important;
+}
+
+.title {
+  text-align: center !important;
+  font-weight: bold !important;
+  margin-bottom: 30px !important;
+}
+
+.icon {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  z-index: 1 !important;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+}
